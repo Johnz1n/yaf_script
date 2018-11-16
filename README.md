@@ -45,5 +45,8 @@ sudo apt install php
 ### Run Script
 
 ```sh
-php script.php mycampture.pcap active_time idle_time
+php script.php mycapture.pcap active_time idle_time
 ```
+Exemplo
+
+> php script.php capture.pcap 120 60
