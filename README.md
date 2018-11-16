@@ -34,6 +34,7 @@ Capture 1
 wget https://wwwhome.cs.utwente.nl/~schmidtr/docs/capture.pcap
 ```
 
+Choose two files [Here](https://www.simpleweb.org/wiki/index.php/Traces#Pcap_Traces)
 Install php
 
 ```sh
@@ -43,5 +44,5 @@ sudo apt install php
 ### Run Script
 
 ```sh
-php script.php active_time idle_time
+php script.php mycampture.pcap active_time idle_time
 ```
