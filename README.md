@@ -64,4 +64,4 @@ Exemplo
 >7) sudo  tcpdump -i wlp3s0 -v udp -B 1500
 >8) sudo tcpdump -i wlp3s0 udp  port 53 and  dst 79.102.40.55
 >9) sudo tcpdump -i wlp3s0 port 22 or port 21   
->10)sudo  tcpdump -i wlp3s0 'dst port 80 and dst 79.102.40.55'
+>10) sudo  tcpdump -i wlp3s0 'dst port 80 and dst 79.102.40.55'
